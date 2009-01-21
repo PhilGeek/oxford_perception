@@ -119,7 +119,7 @@ CW insists that talk of representation in philosophy is "loose and treacherous",
 
 There are five main points:
 
-1. Perhaps the most fundamental issue consists in a denial and a positive suggestion about the nature of representation. The denial consists in the claim that nothing is intrinsically representational: "Nothing has *meaning* in itself." The positive claim is put as follows: "Representation is our subjective act. \ldots\ It is *we* who mean." It is on these grounds that CW criticizes Bradley's theory of judgment (*Statement and Inference*, XIII, §§124-125). This thought, or something very much like it, independently animates McDowell in his discussion of Dennett and Travis in his discussion of the representational theory of experience. While this is really the fundamental point, CW doesn't stress it in his critique of GFS. Nor does he explicitly argue for it, either in the present letter or in the manuscript about Bradley's theory of judgement. 
+A. First, perhaps the most fundamental issue consists in a denial and a positive suggestion about the nature of representation. The denial consists in the claim that nothing is intrinsically representational: "Nothing has *meaning* in itself." The positive claim is put as follows: "Representation is our subjective act. \ldots\ It is *we* who mean." It is on these grounds that CW criticizes Bradley's theory of judgment (*Statement and Inference*, XIII, §§124-125). This thought, or something very much like it, independently animates McDowell in his discussion of Dennett and Travis in his discussion of the representational theory of experience. While this is really the fundamental point, CW doesn't stress it in his critique of GFS. Nor does he explicitly argue for it, either in the present letter or in the manuscript about Bradley's theory of judgement. 
 
 Rory Madden observed that there are two ways in which the slogan "It is we who mean" might be understood:
 
@@ -130,7 +130,7 @@ The distinction potentially bears on whether CK's criticism generalizes to encom
 
 Without settling on a specific interpretation of the slogan "It is *we* who mean", I will henceforth refer to the general class of views as personal conceptions of represntation.
 
-2. CW draws a distinction between two natural relations that ground different notions of representation.
+B. Second, CW draws a distinction between two natural relations that ground different notions of representation.
     * A may represent B because A resembles B (mimetic representation)
     * A may represent B because the existence of A necessitates the existence of B (factive representation)
 
@@ -146,7 +146,7 @@ If all Grice means by natural meaning is an information-bearing state (in a sens
 
 Paul Snowdon suggests that this dialectic reveals a lacuna in CK's case. Perhaps representation *in a particular sense* is personal and so liable to misrepresentaiton. But Ck is not acknowledging any restriction in the use of represention but is singling out, without explicit justification, one sense of representation as fundamental.
 
-3. CW emphasizes the symmetry of these relations. If A resembles B in some respect, B resembles A in that respect. If A necessarily covaries with B, B necessarily covaries with B. This undermines the asymmetry between GFS's talk of a sense representation and what it represents. Or rather, if that asymmetry is sustained, this is evidence of a further assumption in play. Specifically, if A represents B without B representing A this is because A but not B is "present to consciousness."
+D. Third, CW emphasizes the symmetry of these relations. If A resembles B in some respect, B resembles A in that respect. If A necessarily covaries with B, B necessarily covaries with B. This undermines the asymmetry between GFS's talk of a sense representation and what it represents. Or rather, if that asymmetry is sustained, this is evidence of a further assumption in play. Specifically, if A represents B without B representing A this is because A but not B is "present to consciousness."
 
 One worry is whether CK has specified the hidden assumption in a non-question-begging manner. Shouldn't it rather be "immediately present to consciousness"? At least by the lights of a representative realist such as Stout?
 
@@ -154,7 +154,7 @@ Lee Walters observes that in the specification (above and in CK's text) of the n
 
 Paul Snowdon points out how the personal conception of representation is at work her in CK's reflections on symmetry. Suppose that Stout is working with an impersonal notion of representation (though he shouldn't, at least by Cook Wilson's lights). IF Stout is working with an impersonal notion of representation then the the external world could (impersonally) represent the sensation, it is just not a relation that anyone could exploit.
 
-4. CW doubts that the relevant notion of representation could be mimetic. Two arguments:
+E. Fourth, CW doubts that the relevant notion of representation could be mimetic. Two arguments:
     1. In feeling the shape of a thing, we have feelings distinct from extension and yet is through these feelings that we become aware of the thing's shape. Here tactile sensation mediates our knowledge of extension. But talk of mediation implies that that the tactile sensations differ from extension and so they cannot be representative by means of resemblance.
 
 There is a potential lacuna in this argument. That tactile sensation mediates our knowledge of extension may establish that sensation and extension are numerically distinct, but it does not follow from numerical distinctness that the sensation could not mimetically represent extension. To establish that, we would need the stronger claim that sensation and extension differ in kind. If sensation and extension are unlike in kind then there would be no mimetic relation in virtue of which a person could represent the latter by the former.
@@ -167,7 +167,8 @@ Paul Snowdon suggests that what bridges the gap is a phenomenological claim---th
 
 But if the argument turns on this phenomenological claim, why should Stout accept it? Perhaps Cook Wilson things that this is the closest and most specific claim about the relevant phenomenology in the area, and that it is simply not going to do for Stout's purposes.
     2. The Berkelean argument: Only a sensation can resemble a sensation. So if representation were mimetic, the Plain Man would be guilty of the "flagrant absurdity".
-5. If we consider sensations as representative this must be so either on the grounds of likeness or covariation with extension. We must already be acquainted with the likeness or know the covariation. But this is impossible if the mediation of our knowledge of extension by sensation means that we depend on such sensations for our knowledge of extension.
+
+D. Fifth, if we consider sensations as representative this must be so either on the grounds of likeness or covariation with extension. We must already be acquainted with the likeness or know the covariation. But this is impossible if the mediation of our knowledge of extension by sensation means that we depend on such sensations for our knowledge of extension.
 
 How plausible is the operative epistemological premise? Advocates of certain forms of naturalized semantics such as Fodor's correlational psychosemantics would deny any such epistemic assumption. So would reliabilists like Goldman. What confers justification on belief is that it is formed by a reliable belief forming mechanism, not that we know that it is so formed. Are they justified in doing so? What does this tell us about CW's argument.
 
