@@ -1,0 +1,66 @@
+%!TEX TS-program = xelatex 
+%!TEX TS-options = -output-driver="xdvipdfmx -q -E"
+%!TEX encoding = UTF-8 Unicode
+%
+%  summary_2
+%
+%  Created by Mark Eli Kalderon on 2009-01-25.
+%
+
+\documentclass[11pt]{article} 
+
+% Definitions
+\newcommand\myauthor{Mark Eli Kalderon} 
+\newcommand\mytitle{Oxford Philosophy of Perception:}
+\newcommand\mysubtitle{Cook Wilson on Appearance}
+
+% Packages
+\usepackage{url}
+\usepackage{txfonts}
+\usepackage{color}
+\definecolor{myblue}{rgb}{0.8,0.8,1}
+
+% Define discussion environment
+\makeatletter\newenvironment{discussion}{%
+   \noindent\begin{lrbox}{\@tempboxa}\begin{minipage}{\columnwidth}\setlength{\parindent}{1em}}{\end{minipage}\end{lrbox}%
+   \colorbox{myblue}{\usebox{\@tempboxa}}
+}\makeatother
+
+% XeTeX
+\usepackage[cm-default]{fontspec}
+\usepackage{xltxtra,xunicode}
+\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
+\setmainfont{Hoefler Text}
+\setsansfont{Gill Sans}
+\setmonofont{Inconsolata}
+
+% Title Information
+\title{\mytitle\\
+\mysubtitle}
+\author{\myauthor} 
+\date{} % Leave blank for no date, comment out for most recent date
+
+% PDF Stuff
+\usepackage[plainpages=false, pdfpagelabels, bookmarksnumbered, backref, pdftitle={\mytitle}, pagebackref, pdfauthor={\myauthor}, xetex, colorlinks=true, linkcolor=gray, urlcolor=gray]{hyperref}
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+% Title Page
+\maketitle
+
+% Layout Settings
+\setlength{\parindent}{1em}
+
+% Main Content
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[scale=1]{../../graphics/wilson.jpg}
+	\caption{John Cook Wilson}
+	\label{fig:wilson}
+\end{figure}
+
+
+
+\end{document}
