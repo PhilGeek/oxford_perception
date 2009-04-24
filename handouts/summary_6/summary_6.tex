@@ -1,0 +1,150 @@
+%!TEX TS-program = xelatex 
+%!TEX TS-options = -output-driver="xdvipdfmx -q -E"
+%!TEX encoding = UTF-8 Unicode
+%
+%  summary_6
+%
+%  Created by Mark Eli Kalderon on 2009-03-23.
+%
+
+\documentclass[11pt]{article} 
+
+% Definitions
+\newcommand\myauthor{Mark Eli Kalderon} 
+\newcommand\mytitle{Oxford Philosophy of Perception:}
+\newcommand\mysubtitle{G.A. Paul and the Problem of Sense Datum}
+
+% Packages
+\usepackage{url}
+\usepackage{txfonts}
+\usepackage{mdwlist}
+\usepackage{color}
+\definecolor{myblue}{rgb}{0.8,0.8,1}
+
+% Define discussion environment
+\makeatletter\newenvironment{discussion}{%
+   \noindent\begin{lrbox}{\@tempboxa}\begin{minipage}{\columnwidth}\setlength{\parindent}{1em}}{\end{minipage}\end{lrbox}%
+   \colorbox{myblue}{\usebox{\@tempboxa}}
+}\makeatother
+
+% XeTeX
+\usepackage[cm-default]{fontspec}
+\usepackage{xltxtra,xunicode}
+\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
+\setmainfont{Hoefler Text}
+\setsansfont{Gill Sans}
+\setmonofont{Inconsolata}
+
+% Title Information
+\title{\mytitle\\
+\mysubtitle}
+\author{\myauthor} 
+\date{} % Leave blank for no date, comment out for most recent date
+
+% PDF Stuff
+\usepackage[plainpages=false, pdfpagelabels, bookmarksnumbered, backref, pdftitle={\mytitle}, pagebackref, pdfauthor={\myauthor}, xetex, colorlinks=true, linkcolor=gray, urlcolor=gray]{hyperref}
+
+%%% BEGIN DOCUMENT
+\begin{document}
+
+% Title Page
+\maketitle
+
+% Layout Settings
+\setlength{\parindent}{1em}
+
+% Main Content
+
+\section{Cambridge Realism} % (fold)
+\label{sec:Cambridge_realism}
+Paul's primary target is Moore's realism and Cambridge realism more generally.
+
+Cambridge realists shared a conception of sense perception with their Oxford counterparts. Roughly speaking, sense perception is conceived as a fundamental mode of awareness of the mind-independent environment, a mode of awareness that enables the subject to have propositional knowledge of that environment. Two theses that frame this realist conception of perception are presently important, specifically:
+\begin{enumerate}
+    \item The objects of knowledge are independent of the act of knowing.
+    \item Sense perception is a form of knowing. 
+\suspend{enumerate}
+
+The first thesis is the fundamental realist (or anti-idealist) commitment common to both Moore and Cook Wilson.  
+
+The second thesis links the fundamental realist commitment to the objects of perception. If perception is a form of knowing and the objects of knowledge are independent of the act of knowing, then the objects of perception are independent of the act of perceiving. That sense perception is a form of knowing was held not only by the Oxford realists such as Cook Wilson and the early Prichard but also by Cambridge realists such as Moore. 
+
+In what sense is perception a form of knowing? So conceived, perception is a sensuous mode of awareness that makes the subject knowledgeable of its object. In being so aware of an object, the subject is in a position to know certain things about it---depending, of course, on the subject's possession and exercise of the appropriate recognitional capacities.
+
+Cambridge realism departs from Oxford realism in its adherence to a further thesis. Let sense experience be the genus of which sense perception is a species. Cambridge realists, in addition, held:
+\resume{enumerate}
+    \item There is something of which a subject is aware in undergoing sense experience.
+\suspend{enumerate}
+According to the theories of Russell, Moore, and Price, sense data are whatever we are aware of in sense experience. So understood, sense data are whatever entities that play this epistemic role. This characterization of sense data is \emph{neutral} in the sense that it assumes nothing about the substantive nature of objects that play this epistemic role. Further argument is required to establish substantive claims about the nature of sense data. Notice, that so conceived, sense data are objects whose substantive nature is open to investigation independent of our acts of awareness of them. 
+
+It is this consequence of the conjunction of the realist conception of knowledge, the conception of perception as a form of knowing, and the sense data theory that is Paul's primary target:
+\resume{enumerate}
+    \item Sense data are mind-independent objects whose substantive nature is open to investigation.
+\end{enumerate}
+
+% section Cambridge_realism (end)
+
+\section{Is There a Problem about Sense Data?} % (fold)
+\label{sec:is_there_a_problem_about_sense_data_}
+In ``Is There a Problem about Sense Data'' Paul makes negative and positive claims:
+\begin{itemize}
+    \item Paul denies that sense data are mind-independent objects whose substantive nature is open to investigation.
+    \item Paul claims instead that sense data are shadows cast by experiences that can elicited by suitably affecting the mind.
+\end{itemize}
+
+If sense data are independent of our awareness of them in undergoing sense experience, then questions about their substantive nature should be settled by looking to the sense data themselves. But questions about their identity and persistence conditions are not settled in this way. In so far as we can frame answers to these questions, these answers are in terms of what appears to a subject in undergoing certain experiences in certain circumstances.
+
+Here we encounter one of the alien influences on the tradition of Oxford reflection on perception---in the present instance, a Viennese influence. Indeed, ``Is There a Problem about Sense Data'' was composed prior to Paul's coming to Oxford while he was still in Cambridge where he studied and worked with Wittgenstein. While doubts about the substantive nature of sense data had been entertained before, what is distinctive about Paul (and Ayer after him) is that he regards open questions about the nature of sense data not as questions of substantive fact but as matters for linguistic decision. Sense datum talk is a regimentation of our talk of what appears to us in undergoing sense experience and inherits whatever content it has from the experiential reports it regiments. The core idea can be found in Wittgenstein:
+\begin{quote}
+    Philosophers say it as a philosophical opinion or conviction that there are sense data. But to say that I believe that there are sense data comes to saying that I believe that an object may appear to be before our eyes even when it isn't. Now when one uses the word ``sense datum", one should be clear about the peculiarity of its grammar. For the idea in introducing this expression was to model expressions referring to `appearance' after expressions referring to `reality'. It was said, e.g., that if two things seem to be equal, there must be two somethings which are equal. Which of course means nothing else but that we have decided to use such an expression as ``the appearances of these two things are equal" synonymously with ``these two things seem to be equal". Queerly enough, the introduction of this new phraseology has deluded people into thinking that they had discovered new entities, new elements of the structure of the world, as though to say ``I believe that there are sense data" were similar to saying ``I believe that matter consists of electrons". (\emph{The Blue Book}, 70)
+\end{quote}
+% When we talk of the equality of appearances or sense data, we introduce a new usage of the word ``equal". It is possible that the lengths A and B should appear to us to be equal, that B and C should appear to be equal, but that A and C do not appear to be equal. And in the new notation we shall have to say that though the appearance (sense datum) of A is equal to that of B and the appearance of B equal to that of C, the appearance of A is not equal to the appearance of C; which is all right if you don't mind using ``equal" intransitively.
+
+``Is There a Problem about Sense Data'' naturally divides into two halves. The first half concerns the existence of sense data. The second half concerns the identity and persistence conditions of sense data.
+% section is_there_a_problem_about_sense_data_ (end)
+
+\section{The Existence of Sense Data} % (fold)
+\label{sec:the_existence_of_sense_data}
+
+Paul states his conclusion about the existence of sense data as follows:
+\begin{quote}
+    My intention has not been to deny that there are sense-data, if by that is meant that (1) we can understand, to some extent at least, how people wish to use the word `sense-datum' who have introduced it into philosophy, and that (2) sometimes statements of a certain form containing the word `sense-datum' are true, e.g., `I am seeing* an elliptical sense-datum ``of'' a round penny.' Nor do I wish to deny that the introduction of this terminology may be useful in helping to solve some philosophical problems about perception; but I do wish to deny that there is any sense in which this terminology is nearer to reality than any other which may be used to express the same facts; in particular I wish to deny that in order to give a complete and accurate account of any perceptual situation it is necessary to use a noun in the way in which `sense-datum' is used \ldots\ (``Is There a Problem about Sense-Data?'')
+\end{quote}
+According to Paul: 
+\begin{enumerate}
+    \item Claims about sense data are intelligible.
+    \item Claims about sense data, intelligibly interpreted, can be true.
+    \item The truth of claims about sense data does not commit one to the existence of mind-independent sense data.
+\end{enumerate}
+Let's consider these claims in turn.
+
+Paul, like Wittgenstein, claims that talk of sense data is a theoretically motivated regimentation of ordinary appearance talk. In ordinary appearance talk we report how things appear in undergoing various sense experiences in various circumstances of perception. Paul specifies the particular sense of ``appearance'' and related idiom that talk of sense data is introduced to regiment:
+\begin{quote}
+    We so use language that whenever it is true that I am seeing the round top surface of a penny, and know that it is round, it is true to say that the penny \emph{looks} (e.g.) elliptical to me, in a sense in which this does not entail that I am in any way deceived about the real shape of the penny. (I shall indicate this sense by means of a suffix: `looks*'.)
+\end{quote}
+Starred looks statements (and starred appearance attributions, more generally) are not what Jackson describes as \emph{epistemic look statements}. An epistemic look statement introduces a thought as a topic of conversation and asserts that there is visual evidence for its truth. It is a necessary condition on the assertability of the look statement that the conversationally salient thought be epistemically possible. But in Paul's example, the penny is seen to be round. And if it is seen to be round, it is evidently not elliptical. In the given circumstances of perception, it is not epistemically possible that the penny is elliptical. So the intended sense of ``looks* elliptical'' is not the epistemic sense. Starred look statements must at least mark the appearance/reality contrast in the following sense: Something can look* \( F \) without itself being \( F \), indeed while seen to be not-\( F \). Ryle and Chisholm will propose that the comparative use of look statements can mark such a contrast. On the comparative use, the penny looks elliptical roughly in the sense that it looks the way an elliptical thing would look. Moreover that it is look that it will have even when seen to be round. Paul does not commit himself to the comparative interpretation, however.
+
+Sense data talk is explained in terms of starred appearance attributions in accordance with the rule that the adjectival complement of a starred appearance attribution is predicated of the sense datum. So if something looks \( F \) in a subject's experience of it, then the subject has an \( F \) sense data. In this way, ordinary appearance attributions, in an intended sense, control talk of sense data, and talk of sense data derives whatever content that it has from the intended sense of ordinary appearance attributions.
+
+\begin{discussion}
+    While the transformation rule that Paul proposes is initially plausible, can all \emph{intelligible} talk of sense data be understood, without semantic residue, in terms of starred appearance attributions? Importantly, Paul claims that not \emph{all} sense data talk is intelligible. But only because its use is not settled by the intended sense of ordinary appearance attributions. For that to be plausible we must be antecedently convinced that the intelligible use of sense datum talk can be completely explained in terms of starred appearance attributions.
+\end{discussion}
+
+So far I have explained the sense in which Paul believes that claims about sense data can be intelligibly interpreted. Such claims are intelligibly interpreted as restatements of our ordinary appearance attributions in their non-epistemic sense. Since these ordinary appearance attributions can be true, so can their restatements in terms of sense-data. So Paul's second claim is a consequence of his first claim and the commitments of common sense that we bring with us to philosophy.
+
+Given how talk of sense data is intelligibly interpreted---namely, as a restatement of ordinary appearance attributions in their non-epistemic sense\----there are no facts of the matter about sense data over and above how things appear to a subject in undergoing a sense experience. But facts about how things appear in sense experience are not facts about a domain of mind-independent entities. 
+
+\begin{discussion}
+    Following Alston and Wright (and Frege before them), one might question the reductive character of Paul's interpretation of sense-datum talk. Perhaps talk of sense data, in the familiar Fregean metaphor, \emph{reconceptualizes} ordinary appearance attributions in their non-epistemic sense, and in so doing makes explicit what was merely an implicit commitment to the existence of sense data in our ordinary appearance attributions.
+    
+    Paul's argument, at least as so far presented, seems to presuppose phenomenalism about appearances. Attributions of appearances must be understood in terms of actual and hypothetical experiences---in terms of how something does or would look to a subject that undergoes the relevant sense experience in the given circumstance of perception. Suppose that phenomenalism about appearances is false. There may be no facts about sense data over and above facts about non-epistemic appearances, but if facts about appearances are not facts about actual and hypothetical sense experience, then there is not yet reason to deny that sense data are intelligibly understood as mind-independent entities.
+\end{discussion}
+
+% section the_existence_of_sense_data (end)
+
+\section{The Identity and Individuation of Sense Data} % (fold)
+\label{sec:the_identity_and_individuation_of_sense_data}
+
+% section the_identity_and_individuation_of_sense_data (end)
+
+\end{document}
